@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Editorial design tokens -->
+    <color name="background">#F7F3EC</color>
+    <color name="surface">#FFFDF8</color>
+    <color name="primary_ink">#1F1D1A</color>
+    <color name="secondary_ink">#6E675E</color>
+    <color name="accent">#8A4F3D</color>
+    <color name="accent_soft">#E9D8CF</color>
+    <color name="divider">#DDD6CC</color>
+    <color name="success">#4F6B55</color>
+    <color name="danger">#9A4038</color>
+</resources>

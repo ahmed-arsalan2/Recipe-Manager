@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        The editorial palette intentionally remains consistent
+        in night mode for this version of the application.
+        The base theme from values/themes.xml is reused.
+    -->
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing scale (8dp base unit) -->
+    <dimen name="space_xs">8dp</dimen>
+    <dimen name="space_sm">12dp</dimen>
+    <dimen name="space_md">16dp</dimen>
+    <dimen name="space_lg">20dp</dimen>
+    <dimen name="space_xl">24dp</dimen>
+    <dimen name="space_xxl">32dp</dimen>
+
+    <!-- Screen padding -->
+    <dimen name="screen_padding_horizontal">16dp</dimen>
+    <dimen name="section_padding">24dp</dimen>
+
+    <!-- Component sizing -->
+    <dimen name="touch_target_min">48dp</dimen>
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="input_corner_radius">10dp</dimen>
+    <dimen name="button_corner_radius">10dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+
+    <!-- Typography -->
+    <dimen name="text_screen_title">30sp</dimen>
+    <dimen name="text_section_title">21sp</dimen>
+    <dimen name="text_recipe_title_list">19sp</dimen>
+    <dimen name="text_body">16sp</dimen>
+    <dimen name="text_metadata">12sp</dimen>
+    <dimen name="text_button">14sp</dimen>
+    <dimen name="text_input">16sp</dimen>
+    <dimen name="text_hint">14sp</dimen>
+</resources>

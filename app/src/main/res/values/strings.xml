@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Recipe</string>
+
+    <!-- Brand -->
+    <string name="brand_overline">MY KITCHEN</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome back.</string>
+    <string name="login_subtitle">Your recipes, kept in one place.</string>
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="hint_email">you@example.com</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_create_account">Create an account</string>
+
+    <!-- Register -->
+    <string name="register_title">Start your recipe journal.</string>
+    <string name="register_subtitle">A calm place to keep every recipe worth remembering.</string>
+    <string name="label_name">Full name</string>
+    <string name="hint_name">Your name</string>
+    <string name="label_confirm_password">Confirm password</string>
+    <string name="hint_confirm_password">Re-enter your password</string>
+    <string name="action_create_account_primary">Create account</string>
+    <string name="action_go_to_login">Already have an account? Sign in</string>
+
+    <!-- Recipe List -->
+    <string name="recipe_list_overline">YOUR KITCHEN</string>
+    <string name="recipe_list_title">My Recipes</string>
+    <string name="action_logout">Log out</string>
+    <string name="hint_search">Search recipes</string>
+    <string name="category_all">All categories</string>
+    <string name="category_favorites">Favorites</string>
+    <string name="empty_state_title">Nothing here yet.</string>
+    <string name="empty_state_subtitle">Tap the plus button to add your first recipe.</string>
+    <string name="cd_add_recipe">Add recipe</string>
+
+    <!-- Add Recipe -->
+    <string name="add_recipe_title">New Recipe</string>
+    <string name="add_recipe_subtitle">Write it down before you forget it.</string>
+    <string name="label_title">Recipe title</string>
+    <string name="hint_title">e.g. Sunday morning pancakes</string>
+    <string name="label_category">Category</string>
+    <string name="hint_category">e.g. Breakfast, Dessert, Indian</string>
+    <string name="label_ingredients">Ingredients</string>
+    <string name="hint_ingredients">List each ingredient on its own line</string>
+    <string name="label_instructions">Instructions</string>
+    <string name="hint_instructions">Describe the steps, one at a time</string>
+    <string name="action_save_recipe">Save recipe</string>
+
+    <!-- Edit Recipe -->
+    <string name="edit_recipe_title">Edit Recipe</string>
+    <string name="action_save_changes">Save changes</string>
+
+    <!-- Recipe Detail -->
+    <string name="label_ai_description">AI DESCRIPTION</string>
+    <string name="action_generate_description">Generate AI description</string>
+    <string name="action_generating">Generating…</string>
+    <string name="section_ingredients">Ingredients</string>
+    <string name="section_instructions">Instructions</string>
+    <string name="action_edit_recipe">Edit recipe</string>
+    <string name="action_delete_recipe">Delete recipe</string>
+    <string name="cd_favorite_outline">Add to favorites</string>
+    <string name="cd_favorite_filled">Remove from favorites</string>
+    <string name="favorite_label">Favorite</string>
+
+    <!-- Misc -->
+    <string name="cd_search">Search</string>
+</resources>

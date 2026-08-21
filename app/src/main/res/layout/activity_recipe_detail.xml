@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/section_padding"
+        android:paddingEnd="@dimen/section_padding"
+        android:paddingTop="@dimen/space_xxl"
+        android:paddingBottom="@dimen/space_xxl">
+
+        <TextView
+            android:id="@+id/tvDetailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/RecipeTextScreenTitle" />
+
+        <TextView
+            android:id="@+id/tvDetailCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_xs"
+            style="@style/RecipeTextMetadata" />
+
+        <Button
+            android:id="@+id/btnDetailFavorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_md"
+            android:text="@string/favorite_label"
+            android:drawableStart="@drawable/ic_favorite_outline"
+            android:drawablePadding="@dimen/space_xs"
+            android:paddingStart="@dimen/space_sm"
+            android:paddingEnd="@dimen/space_md"
+            style="@style/RecipeButtonSecondary" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_marginTop="@dimen/space_lg"
+            android:background="@color/divider" />
+
+        <Button
+            android:id="@+id/btnGenerateDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_lg"
+            android:text="@string/action_generate_description"
+            style="@style/RecipeButtonSecondary" />
+
+        <TextView
+            android:id="@+id/tvAiDescriptionLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_md"
+            android:text="@string/label_ai_description"
+            android:visibility="gone"
+            style="@style/RecipeTextOverline" />
+
+        <TextView
+            android:id="@+id/tvAiDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_xs"
+            android:visibility="gone"
+            style="@style/RecipeTextBody" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_xxl"
+            android:text="@string/section_ingredients"
+            style="@style/RecipeTextSectionTitle" />
+
+        <TextView
+            android:id="@+id/tvDetailIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_sm"
+            style="@style/RecipeTextBody" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_xxl"
+            android:text="@string/section_instructions"
+            style="@style/RecipeTextSectionTitle" />
+
+        <TextView
+            android:id="@+id/tvDetailInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_sm"
+            style="@style/RecipeTextBody" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_height"
+            android:layout_marginTop="@dimen/space_xxl"
+            android:background="@color/divider" />
+
+        <Button
+            android:id="@+id/btnEditRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_lg"
+            android:text="@string/action_edit_recipe"
+            style="@style/RecipeButtonSecondary" />
+
+        <Button
+            android:id="@+id/btnDeleteRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_sm"
+            android:text="@string/action_delete_recipe"
+            style="@style/RecipeButtonDanger" />
+
+    </LinearLayout>
+
+</ScrollView>
