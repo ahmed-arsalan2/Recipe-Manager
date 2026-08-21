@@ -38,26 +38,49 @@ public class GeminiRepository {
     ) {
 
         String prompt =
-                "Write a concise and appetizing description "
-                        + "for the following recipe.\n\n"
+                "You are a professional food editor creating a clear and "
+                        + "appetizing recipe presentation.\n\n"
+
                         + "Recipe title: "
                         + recipe.getTitle()
                         + "\n"
+
                         + "Category: "
                         + recipe.getCategory()
                         + "\n"
+
                         + "Ingredients: "
                         + recipe.getIngredients()
                         + "\n"
+
                         + "Instructions: "
                         + recipe.getInstructions()
                         + "\n\n"
-                        + "Requirements:\n"
-                        + "- Write 2 to 4 sentences.\n"
-                        + "- Make it natural and appetizing.\n"
-                        + "- Do not invent ingredients.\n"
+
+                        + "Create the recipe presentation using exactly this structure:\n\n"
+
+                        + "1. Description\n"
+                        + "Write 2 to 3 lines describing the recipe and what makes "
+                        + "it appealing. Keep it natural and appetizing.\n\n"
+
+                        + "2. Ingredients\n"
+                        + "List the ingredients clearly using bullet points. "
+                        + "Use only the ingredients provided above. "
+                        + "Do not invent or add ingredients.\n\n"
+
+                        + "3. Instructions\n"
+                        + "Rewrite the provided instructions as clear, numbered "
+                        + "steps for preparing the recipe. "
+                        + "Do not invent additional cooking steps.\n\n"
+
+                        + "Rules:\n"
+                        + "- Keep the recipe title unchanged.\n"
+                        + "- Do not invent ingredients, quantities, cooking methods, "
+                        + "or preparation steps.\n"
+                        + "- Preserve the meaning of the provided instructions.\n"
+                        + "- Do not include nutritional claims.\n"
                         + "- Do not use emojis.\n"
-                        + "- Return only the description.";
+                        + "- Return only the recipe presentation.";
 
         Content promptContent =
                 new Content.Builder()

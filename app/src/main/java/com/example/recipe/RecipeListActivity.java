@@ -278,12 +278,12 @@ public class RecipeListActivity extends AppCompatActivity {
         ArrayAdapter<String> spinnerAdapter =
                 new ArrayAdapter<>(
                         this,
-                        android.R.layout.simple_spinner_item,
+                        R.layout.item_spinner_category,
                         categoryList
                 );
 
         spinnerAdapter.setDropDownViewResource(
-                android.R.layout.simple_spinner_dropdown_item
+                R.layout.item_spinner_category_dropdown
         );
 
         spinnerCategory.setAdapter(
