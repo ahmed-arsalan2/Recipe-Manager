@@ -201,24 +201,34 @@ The application includes:
 
 The recipe list provides search, category filtering, favorites, and an editorial-style presentation.
 
+## Development Resources
+
+### AI-Assisted Development
+
+AI tools were used during the development of RecipeManager as a development aid.
+
+They were used for:
+
+* Understanding and troubleshooting Android/Java concepts
+* Debugging implementation issues
+* Reviewing architecture and data flow
+* Identifying potential integration and security issues
+* Refining UI/UX implementation
+* Assisting with Firebase and Gemini integration
+* Reviewing and improving project documentation
+
+The submitted application was implemented, tested, and reviewed by the developer. The developer understands the submitted code and can explain the implementation and architectural decisions.
+
+### AI Used Within the Application
+
+RecipeManager also uses **Firebase AI Logic with Gemini** as an application feature. Gemini is used to generate concise recipe descriptions from recipe information such as the title, category, ingredients, and instructions.
+
+
 ## Current Status
 
 RecipeManager currently includes the core application functionality, Firebase integration, AI integration, and the final editorial UI.
 
 The project is being prepared as a competition-ready Android application, with the remaining work focused on final deployment, documentation, resource declaration, and demonstration.
-
-## Future Improvements
-
-Potential future improvements include:
-
-* Offline-first recipe access
-* Recipe image storage
-* More advanced search and filtering
-* Additional AI-assisted recipe features
-* Improved loading indicators
-* More granular UI state management
-* Automated testing
-* Additional accessibility improvements
 
 ## License
 
