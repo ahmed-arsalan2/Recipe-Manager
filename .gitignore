@@ -17,3 +17,4 @@ local.properties
 # Android Studio
 .idea/
 app/google-services.json
+*.apk
