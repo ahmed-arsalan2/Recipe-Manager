@@ -234,15 +234,6 @@ AI tools were used during the development of RecipeManager as a development aid.
 
 They were used for:
 
-<<<<<<< HEAD
-* Understanding and troubleshooting Android/Java concepts
-* Debugging implementation issues
-* Reviewing architecture and data flow
-* Identifying potential integration and security issues
-* Refining UI/UX implementation
-* Assisting with Firebase and Gemini integration
-* Reviewing and improving project documentation
-=======
 - Understanding and troubleshooting Android/Java concepts
 - Debugging implementation issues
 - Reviewing architecture and data flow
@@ -250,16 +241,11 @@ They were used for:
 - Refining UI/UX implementation
 - Assisting with Firebase and Gemini integration
 - Reviewing and improving project documentation
->>>>>>> e4c035e (Finalised)
 
 The submitted application was implemented, tested, and reviewed by the developer. The developer understands the submitted code and can explain the implementation and architectural decisions.
 
 ### AI Used Within the Application
 
-<<<<<<< HEAD
-RecipeManager also uses **Firebase AI Logic with Gemini** as an application feature. Gemini is used to generate concise recipe descriptions from recipe information such as the title, category, ingredients, and instructions.
-
-=======
 RecipeManager also uses **Firebase AI Logic with Gemini** as an application feature.
 
 Gemini is used to generate concise recipe descriptions from recipe information such as:
@@ -268,8 +254,8 @@ Gemini is used to generate concise recipe descriptions from recipe information s
 - Category
 - Ingredients
 - Instructions
->>>>>>> e4c035e (Finalised)
 
+AI generation is performed asynchronously so that the Android UI remains responsive.
 ## Current Status
 
 RecipeManager currently includes the core application functionality, Firebase integration, AI integration, and the final editorial UI.
